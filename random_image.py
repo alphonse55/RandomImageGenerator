@@ -15,4 +15,4 @@ for i in range(width ** 2):
     )
 new_image = Image.new("RGBA", (width, width))
 new_image.putdata(pixels)
-new_image.save("image.png")
+new_image.save("img.png")
